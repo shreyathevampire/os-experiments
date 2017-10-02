@@ -142,3 +142,38 @@ for(j=0;j<r;j++)
    safety(p,r,allocate,max,available,need,work,flag);
 
 }
+
+
+
+
+output:
+
+enter no of processes
+3
+enter no of resources
+3
+enter the allocation matrix
+2 2 3
+2 0 3
+1 2 4
+maximum matrix
+3 6 8
+4 3 3
+3 4 4
+enter available matrix
+2 3 0
+need matrix
+1  4  5  
+2  3  0  
+2  2  0  
+system is not in safe state
+1	 1	 1	 enter process no and requesting resources
+1
+1 1 0
+1 1 0 available
+2 3 0 
+0 3 5 
+2 3 0 
+2 2 0 
+system is not in safe state
+0	 0	 0	
