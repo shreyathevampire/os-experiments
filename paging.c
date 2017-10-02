@@ -136,3 +136,41 @@ void main()
 		printf("physical address = %d\n",dec);
 		printf("\n");
 }
+
+
+
+
+
+output:
+enter logical address in kB
+64
+no of bits in logical address =16 
+enter physical address in kB
+1024
+no of bits in physical address =20   
+enter size of frame in kB   
+2
+no of bits in f =11 
+enter no of page table entry
+3
+enter page table entries
+enter page no and frame no
+3 9
+enter page no and frame no
+2 11
+enter page no and frame no
+4 2
+ frame no [2]=11
+ frame no [3]=9
+ frame no [4]=2
+enter logical address
+6050
+13 
+0 0 0 1 0 1 1 1 1 0 1 0 0 0 1 0 
+0 1 0 0 0 
+page no = 2 
+frame no = 11 
+0 0 0 0 0 1 0 1 1 
+0 0 0 0 0 1 0 1 1 1 1 1 1 0 1 0 0 0 1 0 
+physical address = 24482
+
